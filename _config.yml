@@ -1,0 +1,19 @@
+---
+title: A Tribo HQ
+timezone: America/Sao_Paulo
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+markdown: kramdown
+baseurl: "/personagens"
+author: Junior Curtizo / Avelar Fortunato(Developer)
+email:
+description: Revista A Tribo
+exclude:
+- README.md
+- Gemfile.lock
+- vendor

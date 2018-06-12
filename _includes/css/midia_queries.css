@@ -1,0 +1,29 @@
+@media only screen and (min-width:820px){
+  .content-centered-display-none,
+  .header-navegation a {
+    display: block;
+    padding: 0 10px;
+  }
+  .landing-subheader {
+    font-size: 24px;
+    text-align: left;
+    width: 640px;
+    margin: 30px auto;
+    line-height: 1.3;
+  }
+  .footer {
+    padding-top: 5px;
+    text-align: left;
+  }
+  .footer-right {
+    position: absolute;
+    right: 0;
+    top: -8px;
+  }
+}
+
+@media only screen and (max-width:450px){
+  .header-pages {
+    padding: 0;
+  }
+}
