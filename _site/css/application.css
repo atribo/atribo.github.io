@@ -18,7 +18,8 @@ html, body, h1, h2, p {
 }
 
 html {
-  background: #FDF06F;
+  background: #F27012 url("/img/icon.png") center center  no-repeat;
+  background-size: 80%;
   width: 100%;
   height: 100%;
 }
@@ -58,7 +59,7 @@ footer {
 /* #Content */
 /* #Pages */
 .character-item {
-  background: url("/img/card-background.jpg");
+  background: url("/img/card-background.jpg") top center no-repeat;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -77,6 +78,8 @@ footer {
   padding: 20px;
   margin: 30px;
   height: 85vh;
+  position: relative;
+  z-index: 10;
   -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
@@ -95,6 +98,14 @@ footer {
 }
 .character-image {
   text-align: center;
+}
+.character-image-full {
+  position: absolute;
+  bottom: -80%;
+  z-index: 0;
+}
+.character-image.character-image-full img {
+  width: 100%;
 }
 
 .character-item-content-info {
