@@ -58,12 +58,16 @@ footer {
 /* #Container */
 /* #Content */
 /* #Pages */
+.character {
+    background: url("/img/card-background.jpg") top center no-repeat;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    height:100vh;
+    overflow: hidden;
+}
 .character-item {
-  background: url("/img/card-background.jpg") top center no-repeat;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
   height:100vh;
   overflow: hidden;
   width: 100%;
