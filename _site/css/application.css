@@ -33,6 +33,12 @@ body {
   text-align: center;
 }
 
+@media all and (orientation:portrait) {
+  body {
+    display: block;
+  }
+}
+
 /* #content */
 header,
 section,
@@ -63,16 +69,21 @@ footer {
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
-    height:100vh;
-    overflow: hidden;
+    height:100%;
+    /* overflow: hidden; */
 }
 .character-item {
-  height:100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 100%;
   position: relative;
   /* width: 99%; */
   /* box-shadow: 2px 2px 5px #000; */
+}
+.character-item-shot {
+  height: 100vh;
+}
+.character-item-full {
+  min-height: 100vh;
 }
 
 .character-item-content {
@@ -80,12 +91,17 @@ footer {
   color: #fff;
   padding: 20px;
   margin: 30px;
-  height: 85vh;
   position: relative;
   z-index: 10;
   -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
+}
+.character-item-content-short {
+  height: 85vh;
+}
+.character-item-content-full {
+  min-height: 100vh;
 }
 .character-item-label {
   background: #000;
@@ -94,7 +110,13 @@ footer {
   font-weight: bold;
 }
 .character-item-label:first-child{
-  margin-top: 0px;
+  margin-top: -20px;
+  -webkit-border-top-left-radius: 8.5px;
+  -webkit-border-top-right-radius: 8.5px;
+  -moz-border-radius-topleft: 8.5px;
+  -moz-border-radius-topright: 8.5px;
+  border-top-left-radius: 8.5px;
+  border-top-right-radius: 8.5px;
 }
 .character-image img {
   width: 90%;
