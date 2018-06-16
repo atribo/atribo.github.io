@@ -1,13 +1,14 @@
 CACHE MANIFEST
 
-#v2.0
+#v1.0
 
 CACHE:
-css/application.css
-img/icon.png
-js/lib/jquery.min.js
-js/application.js
-https://fonts.googleapis.com/css?family=Montserrat:400,900
+#css/application.css
+#img/icon.png
+#img/card-background.jpg
+#js/lib/jquery.min.js
+#js/lib/siema.min.js
+#js/application.js
 
 NETWORK:
 *

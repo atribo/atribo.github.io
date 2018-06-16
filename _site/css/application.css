@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900');
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+img { width: 100%; }
+figure, time { margin:0; padding:0; }
+a {
+  color: #B09263;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 html, body, h1, h2, p {
   margin: 0;
   padding: 0;
@@ -10,46 +23,128 @@ html {
   height: 100%;
 }
 body {
-  background: #fff;
-  color: #FDF06F;
-  font-family: 'Montserrat', 'Arial black', sans-serif;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  font: 13px/1.4 arial, sans-serif;
+}
+
+/* HELPERS */
+.text-align-center p,
+.text-align-center {
   text-align: center;
 }
 
-/* Typography */
-h1.container-week {
-  font-size: 200px;
-  font-family: impact, sans-serif;
-  font-weight: bolder;
-  line-height: 1;
-  letter-spacing: -4px;
-  margin: 12px 0 45px 0;
-}
-h2.container-week-label {
-  font-size: 51px;
-  font-weight: 900;
-  line-height: 1;
-  margin-top: 10px;
-}
-
-/* Content */
-.container {
+/* #content */
+header,
+section,
+footer {
+  width: 100%;
   height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+}
+/* #Header */
+/* #Navegation */
+.navegation {}
+/* #go to top*/
+.go-top {
+  background-position: 0 -40px;
+  position: fixed;
+  width: 40px;
+  height: 20px;
+  bottom: 240px;
+  right: 50px;
+  display: none;
+}
+/* #Main*/
+/* #Container */
+/* #Content */
+/* #Pages */
+.character-item {
+  background: url("/img/card-background.jpg");
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  height:100vh;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  /* width: 99%; */
+  /* box-shadow: 2px 2px 5px #000; */
 }
 
-.timeline-container--item {
-  font-size: 0.8em;
-  font-weight: normal;
-  letter-spacing: 0.2em;
-  margin-bottom: 10px;
+.character-item-content {
+  border: 2px solid #F27012;
+  color: #fff;
+  padding: 20px;
+  margin: 30px;
+  height: 85vh;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
 }
-p.item-block { display: block !important; }
+.character-item-label {
+  background: #000;
+  margin: 10px -20px;
+  padding: 4px 20px;
+  font-weight: bold;
+}
+.character-item-label:first-child{
+  margin-top: 0px;
+}
+.character-image img {
+  width: 90%;
+}
+.character-image {
+  text-align: center;
+}
+
+.character-item-content-info {
+
+}
+.character-item-content-perfil {}
+.character-item-content-skills {}
+
+/* #footer */
+
+.character-detail-list {
+  list-style: none;
+  padding-left: 0; 
+}
+
+/* Typography */
+::-moz-selection{
+  color:#fff;
+  background: #B09263;
+}
+::selection {
+  color:#fff;
+  background: #B09263;
+}
+.font-italic {
+  font-style: italic;
+}
+.font-bold {
+  font-weight: bold;
+}
+
+/* #Forms */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.radius {
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+}
+
+/* Mobile First */
+@media only screen and (min-width:820px){
+
+}
+
+@media only screen and (max-width:450px){
+
+}
+
