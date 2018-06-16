@@ -3,3 +3,29 @@
      -moz-border-radius: 10px;
           border-radius: 10px;
 }
+
+/*Character Skills*/
+.character-skill-list{
+  padding: 0;
+  margin: 0;
+}
+.character-skill-list li{
+
+}
+.icon {
+  background: url("{{site.baseurl}}/img/icons.png");
+  background: url("{{site.baseurl}}/img/icons.svg");
+  display: inline-block;
+}
+.skill-item {
+  width: 22px;
+  height: 22px;
+  background-size: 100%;
+}
+
+.skill-plus {
+  background-position: 0 0;
+}
+.skill-less {
+  background-position: 0 -25px;
+}
