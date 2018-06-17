@@ -1,8 +1,14 @@
 {% include head.html %}
-  <body class="default-page">
+  <body>
     {% include navegation.html %}
-    <main id="content" class="page" role="main">
-      {{ content }}
+    <main id="content" role="main">
+      <div class="character">
+        <div class="character-item-full">
+          <div class="character-item-content-full">
+            {{ content }}
+          </div>
+        </div>
+      </div>
     </main>
     {% include footer.html %}
   </body>

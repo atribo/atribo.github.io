@@ -66,6 +66,9 @@ footer {
     /* height: 100vh; */
     height: 100%;
 }
+.default-page {
+  padding: 40px;
+}
 .character-item {
   /* overflow: hidden; */
   width: 100%;

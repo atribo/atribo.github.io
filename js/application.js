@@ -12,7 +12,7 @@ new Siema({
   onInit: () => {},
   onChange: () => {},
 });
-$( document ).ready(function() {
+$( document ).ready(function(){
   $('.open-navegation').on('click', function() {
     $('.navegation').fadeIn();
     console.log("Clicado in");
