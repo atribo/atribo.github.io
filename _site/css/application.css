@@ -56,7 +56,6 @@ footer {
   padding: 40px;
 }
 
-.default-page,
 .character {
     background: url("/img/card-background.jpg") top center no-repeat;
     -webkit-background-size: cover;
@@ -260,6 +259,8 @@ label {
 .icon {
   background: url("/img/icons.png");
   background: url("/img/icons.svg");
+  -webkit-transition: all 2s linear 2s;
+          transition: all 2s linear 2s;
 }
 .skill-item {
   width: 22px;
