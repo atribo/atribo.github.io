@@ -24,7 +24,8 @@ html {
 }
 body {
   background: #FFF;
-  font: 13px/1.4 arial, sans-serif;
+  font: 13px/1.4 'Oswald', sans-serif;
+  font-weight: 300;
 }
 
 /* HELPERS */
@@ -233,6 +234,12 @@ footer {
 }
 .font-bold {
   font-weight: bold;
+}
+
+h1 {
+  font-size: 52px;
+  margin-top: -20px;
+  font-weight: 300;
 }
 
 /* #Forms */

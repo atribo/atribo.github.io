@@ -24,7 +24,8 @@ html {
 }
 body {
   background: #FFF;
-  font: 13px/1.4 arial, sans-serif;
+  font: 13px/1.4 'Oswald', sans-serif;
+  font-weight: 300;
 }
 
 /* HELPERS */
