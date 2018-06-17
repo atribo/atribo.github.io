@@ -1,12 +1,9 @@
 {% include head.html %}
   <body>
-    <div class="container">
-      <div class="content">
-        <main id="content" role="main" class="content-wrap">
-          {{ content }}
-        </main>
-      </div>
-    </div>
+    {% include navegation.html %}
+    <main id="content" role="main">
+      {{ content }}
+    </main>
     {% include footer.html %}
   </body>
 </html>

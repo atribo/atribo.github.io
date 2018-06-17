@@ -15,14 +15,13 @@
 .icon {
   background: url("{{site.baseurl}}/img/icons.png");
   background: url("{{site.baseurl}}/img/icons.svg");
-  display: inline-block;
 }
 .skill-item {
   width: 22px;
   height: 22px;
+  display: inline-block;
   background-size: 100%;
 }
-
 .skill-plus {
   background-position: 0 0;
 }
