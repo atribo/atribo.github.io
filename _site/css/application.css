@@ -51,10 +51,12 @@ footer {
 /* #Container */
 /* #Content */
 /* #Pages */
+
 .page {
   padding: 40px;
 }
 
+.default-page,
 .character {
     background: url("/img/card-background.jpg") top center no-repeat;
     -webkit-background-size: cover;
