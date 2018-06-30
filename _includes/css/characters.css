@@ -107,3 +107,12 @@
 .character-perfil-pantera img {
   width: 110% !important;
 }
+
+/* Portal */
+.character-portal-about img {
+  width: 110%;
+  margin-top: -90px;
+}
+.character-perfil-portal {
+  bottom: -45%;
+}

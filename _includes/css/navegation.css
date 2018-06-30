@@ -16,8 +16,8 @@
   width: 30px;
   height: 24px;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
   color: #fff;
   z-index: 200;
   background-size: 100% !important;
@@ -27,8 +27,8 @@
   width: 30px;
   height: 24px;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  left: 20px;
   color: #fff;
   z-index: 200;
   background-size: 100% !important;
@@ -52,4 +52,10 @@
   bottom: 240px;
   right: 50px;
   display: none;
+}
+
+
+.characters-select-list li {
+  display: block;
+  margin: 10px 0;
 }
