@@ -7,4 +7,5 @@
 {% include css/typography.css %}
 {% include css/form.css %}
 {% include css/modules.css %}
+{% include css/characters.css %}
 {% include css/midia_queries.css %}
