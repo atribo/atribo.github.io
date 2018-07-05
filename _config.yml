@@ -2,15 +2,15 @@
 title: A Tribo HQ
 timezone: America/Sao_Paulo
 collections:
-  posts: 
+  posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
 markdown: kramdown
-baseurl: "/personagens"
-author: Junior Curtizo / Avelar Fortunato (Developer)
+baseurl: "/"
+author: Junior Curtizo (author) / Avelar Fortunato (developer)
 email:
 description: Revista A Tribo
 exclude:
