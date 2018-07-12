@@ -21,7 +21,7 @@ $( document ).ready(function(){
     rtl: false,
     onInit: () => {},
     onChange: () => {
-      showSkillItem();
+      // showSkillItem();
     },
   });
 
