@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="42px" height="174px" viewBox="0 0 42 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+<svg width="42px" height="231px" viewBox="0 0 42 231" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
     <title>icons</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
@@ -12,5 +12,9 @@
         <path d="M5,126.5 L37.2905787,126.5" id="Line-3-Copy-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
         <path d="M6,167 L29,144" id="Line-3-Copy-3" stroke="#010000" stroke-width="3" stroke-linecap="round"></path>
         <path d="M6,167 L29,144" id="Line-3-Copy-3" stroke="#010000" stroke-width="3" stroke-linecap="round" transform="translate(17.500000, 155.500000) scale(-1, 1) translate(-17.500000, -155.500000) "></path>
+        <rect id="Rectangle-5" fill="#FFFFFF" x="5" y="197" width="9" height="9"></rect>
+        <rect id="Rectangle-5-Copy" fill="#FFFFFF" x="5" y="210" width="9" height="9"></rect>
+        <rect id="Rectangle-5" fill="#FFFFFF" x="18" y="197" width="9" height="9"></rect>
+        <rect id="Rectangle-5-Copy-2" fill="#FFFFFF" x="18" y="210" width="9" height="9"></rect>
     </g>
 </svg>
