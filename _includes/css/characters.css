@@ -58,18 +58,20 @@
 }
 .character-image img {
   width: 90%;
-  margin-top: -40px;
+  /* margin-top: -40px; */
 }
 .character-image {
   text-align: center;
 }
 .character-image-full {
-  position: absolute;
+  /* position: absolute;
   bottom: -80%;
-  z-index: 0;
+  z-index: 0; */
 }
 .character-image.character-image-full img {
-  width: 100%;
+  width: 150%;
+  /* New Line */
+  margin-left: -10px;
 }
 
 .character-item-content-skills {
@@ -115,6 +117,13 @@
 }
 .character-perfil-portal {
   bottom: -45%;
+}
+
+/* Tiborg */
+.character-tiborg-about .character-image.character-image-full img {
+  width: 170%;
+  right: -90px;
+  position: absolute;
 }
 
 /* Professor Ladislau */
