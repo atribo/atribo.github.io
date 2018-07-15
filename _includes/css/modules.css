@@ -9,14 +9,8 @@
   padding: 0;
   margin: 0;
 }
-.character-skill-list li{
+.character-skill-list li {
 
-}
-.icon {
-  background: url("{{site.baseurl}}/img/icons.png");
-  background: url("{{site.baseurl}}/img/icons.svg");
-  -webkit-transition: all 2s linear 2s;
-          transition: all 2s linear 2s;
 }
 .skill-item {
   width: 22px;

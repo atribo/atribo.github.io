@@ -16,6 +16,12 @@ footer {
 }
 
 /* #Images */
+.icon {
+  background: url("{{site.baseurl}}/img/icons.png");
+  background: url("{{site.baseurl}}/img/icons.svg");
+  -webkit-transition: all 0.5s linear 0.5s;
+          transition: all 0.5s linear 0.5s;
+}
 .icon-arrow-next {
   color: #fff;
   opacity: 0.8;
