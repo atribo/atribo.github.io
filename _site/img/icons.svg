@@ -12,11 +12,11 @@
         <path d="M5,126.5 L37.2905787,126.5" id="Line-3-Copy-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></path>
         <path d="M6,167 L29,144" id="Line-3-Copy-3" stroke="#010000" stroke-width="3" stroke-linecap="round"></path>
         <path d="M6,167 L29,144" id="Line-3-Copy-3" stroke="#010000" stroke-width="3" stroke-linecap="round" transform="translate(17.500000, 155.500000) scale(-1, 1) translate(-17.500000, -155.500000) "></path>
-        <g id="Group" transform="translate(3.000000, 189.000000)" fill="#FFFFFF">
-            <rect id="Rectangle-5" x="0" y="0" width="13" height="13"></rect>
-            <rect id="Rectangle-5-Copy" x="0" y="17" width="13" height="13"></rect>
-            <rect id="Rectangle-5" x="17" y="0" width="13" height="13"></rect>
-            <rect id="Rectangle-5-Copy-2" x="17" y="17" width="13" height="13"></rect>
+        <g id="Group-2" transform="translate(3.000000, 189.000000)" fill="#FFFFFF">
+            <rect id="Rectangle-5" x="0" y="0" width="14" height="14" rx="6.5"></rect>
+            <rect id="Rectangle-5-Copy" x="0" y="18" width="14" height="14" rx="6.5"></rect>
+            <rect id="Rectangle-5" x="18" y="0" width="14" height="14" rx="6.5"></rect>
+            <rect id="Rectangle-5-Copy-2" x="18" y="18" width="14" height="14" rx="6.5"></rect>
         </g>
     </g>
 </svg>

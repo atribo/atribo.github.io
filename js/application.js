@@ -25,6 +25,21 @@ $( document ).ready(function(){
     },
   });
 
+  const page = window.location;
+  if (page.pathname == '/index') {
+    showCharacters();
+  }
+
+  function showCharacters(){
+    $('.characters-select-list li').css('display','none');
+    $('.characters-select-list li').each(function(index){
+      var that = this;
+      var t = setTimeout(function() {
+          $(that).css('display','block');
+      }, 100 * index);
+    });
+  }
+
   // function showSkillItem(){
   //   $('.character-skill-list .skill-item').each(function(index){
   //     var that = this;
