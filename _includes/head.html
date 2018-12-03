@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- <html lang="pt-BR" manifest="offline.manifest"> -->
-<html lang="pt-BR">
+<html lang="pt-BR" manifest="offline.manifest">
 <head>
+  <link rel="manifest" href="manifest.json">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
   <title>{{ site.title }} - {{ page.title }}</title>
@@ -47,3 +47,5 @@
       window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
   </script>
 </head>
+
+<button class="add-button">Adicionar a tela inicial</button>

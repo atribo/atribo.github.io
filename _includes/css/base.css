@@ -34,6 +34,13 @@ body {
   text-align: center;
 }
 
+.add-button {
+  position: absolute;
+  top: 200px;
+  left: 1px;
+  z-index: 100;
+}
+
 @media all and (orientation:portrait) {
   body {
     display: block;

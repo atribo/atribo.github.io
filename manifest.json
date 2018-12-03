@@ -1,0 +1,17 @@
+{
+  "name": "A Tribo",
+  "short_name": "Atribo",
+  "start_url" : "./",
+  "theme_color": "#FDF06F",
+  "background_color": "#FDF06F",
+  "description": "A Tribo HQ.",
+  "display": "standalone",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes" : "512x512",
+      "type" : "image/png"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- <html lang="pt-BR" manifest="offline.manifest"> -->
-<html lang="pt-BR">
+<html lang="pt-BR" manifest="offline.manifest">
 <head>
+  <link rel="manifest" href="manifest.json">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
   <title>A Tribo HQ - Cura</title>
@@ -45,6 +45,8 @@
       window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
   </script>
 </head>
+
+<button class="add-button">Adicionar a tela inicial</button>
 
   <body>
     <a href="#" class="icon open-navegation"></a>
@@ -291,17 +293,18 @@
     </main>
     <footer class="footer">
 </footer>
+<script src="js/sw/registra.js"></script>
 <script src="js/lib/jquery.min.js"></script>
 <script src="js/lib/siema.min.js"></script>
 <script src="js/application.js"></script>
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121802811-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121802811-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-121802811-1');
-</script> -->
+</script>
 
   </body>
 </html>
