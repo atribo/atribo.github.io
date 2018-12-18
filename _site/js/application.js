@@ -40,13 +40,4 @@ $( document ).ready(function(){
     });
   }
 
-  // function showSkillItem(){
-  //   $('.character-skill-list .skill-item').each(function(index){
-  //     var that = this;
-  //     var t = setTimeout(function() {
-  //         $(that).addClass("icon");
-  //     }, 100 * index);
-  //   });
-  // }
-
 });

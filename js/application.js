@@ -31,22 +31,13 @@ $( document ).ready(function(){
   }
 
   function showCharacters(){
-    $('.characters-select-list li').css('display','none');
+    $('.characters-select-list li').css('margin-bottom','1000px');
     $('.characters-select-list li').each(function(index){
       var that = this;
       var t = setTimeout(function() {
-          $(that).css('display','block');
+          $(that).css('margin-bottom','0px');
       }, 100 * index);
     });
   }
-
-  // function showSkillItem(){
-  //   $('.character-skill-list .skill-item').each(function(index){
-  //     var that = this;
-  //     var t = setTimeout(function() {
-  //         $(that).addClass("icon");
-  //     }, 100 * index);
-  //   });
-  // }
 
 });
