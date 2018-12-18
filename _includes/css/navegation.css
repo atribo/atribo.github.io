@@ -52,6 +52,10 @@
   display: inline-block;
   margin: 10px;
   text-align: center;
+  transition-property: all;
+  transition-duration: 1.5s;
+  transition-timing-function: ease;
+  transition-delay: 0;
 }
 .go-to-characters-list {
   background-position: 0 -135px;

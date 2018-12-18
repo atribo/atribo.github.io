@@ -31,11 +31,11 @@ $( document ).ready(function(){
   }
 
   function showCharacters(){
-    $('.characters-select-list li').css('display','none');
+    $('.characters-select-list li').css('margin-bottom','1000px');
     $('.characters-select-list li').each(function(index){
       var that = this;
       var t = setTimeout(function() {
-          $(that).css('display','inline-block');
+          $(that).css('margin-bottom','0px');
       }, 100 * index);
     });
   }
