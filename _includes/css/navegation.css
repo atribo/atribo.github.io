@@ -45,9 +45,13 @@
 }
 
 /* #Characters */
+.characters-select-list {
+  padding: 0;
+}
 .characters-select-list li {
-  display: block;
-  margin: 10px 0;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
 }
 .go-to-characters-list {
   background-position: 0 -135px;

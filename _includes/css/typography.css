@@ -25,3 +25,6 @@ h1 {
 .font-16 a{
   color:#F27012 !important;
 }
+.default-page.text-color-white {
+  color: #fff !important;
+}

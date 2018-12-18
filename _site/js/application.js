@@ -35,7 +35,7 @@ $( document ).ready(function(){
     $('.characters-select-list li').each(function(index){
       var that = this;
       var t = setTimeout(function() {
-          $(that).css('display','block');
+          $(that).css('display','inline-block');
       }, 100 * index);
     });
   }

@@ -132,3 +132,40 @@
   display: block;
   margin-bottom: 10px;
 }
+
+
+.characters-feces {
+  background: url("{{site.baseurl}}/img/characters/characters-feces.png");
+  width: 90px;
+  height: 105px;
+  display: inline-block;
+  background-size: 100%;
+}
+
+.face-volt {
+  background-position: 0px 0px;
+}
+.face-tiborg {
+  background-position: 0px -109px;
+}
+.face-lynx {
+  background-position: 0px -213px;
+}
+.face-cura {
+  background-position: 0px -320px;
+}
+.face-puma {
+  background-position: 0px -427px;
+}
+.face-portal {
+  background-position: 0px -536px;
+}
+.face-ladislau {
+  background-position: 0px -644px;
+}
+.face-ultra {
+  background-position: 0px -755px;
+}
+.face-pantera {
+  background-position: 0px -863px;
+}
