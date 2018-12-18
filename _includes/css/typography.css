@@ -19,3 +19,9 @@ h1 {
   margin-top: -20px;
   font-weight: 300;
 }
+.font-16 {
+  font-size: 16px !important;
+}
+.font-16 a{
+  color:#F27012 !important;
+}

@@ -33,6 +33,14 @@ body {
 .text-align-center {
   text-align: center;
 }
+.text-align-center-vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
 
 .add-button {
   position: absolute;
@@ -175,6 +183,12 @@ h1 {
   font-size: 52px;
   margin-top: -20px;
   font-weight: 300;
+}
+.font-16 {
+  font-size: 16px !important;
+}
+.font-16 a{
+  color:#F27012 !important;
 }
 
 /* #Forms */
